@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.aa{
+    width: auto;
+    height: auto;
+    background-image: url("FP.jpg"),url("FG1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+nav .logo{
+    cursor: pointer;
+    width: 40px;
+}
+ ul li{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    margin-right: 4px;
+}
+nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 7px;
+    font-style: italic;
+}
+nav ul li a:hover{
+    color:white;
+    transition: .1s;
+}
+.zoom {
+    background-image: url();
+    transition: transform .2s;
+    width: 842px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.parallax {
+  
+    background-image: url("abcd.jpg");
+    
+  
+    min-height: 900px;
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.parallax p{
+    cursor: pointer;
+    text-align: center;
+    padding: 90px;
+    font-style: italic;
+    font-weight: 900;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+.parallax p:hover{
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+.parallax h5{
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.596);
+    padding-top: 500px;
+    text-align: center;
+}
+@keyframes scaleup {
+    0% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }

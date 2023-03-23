@@ -1,0 +1,45 @@
+body{
+    background: url("Courses-bg.png");
+    background-size: 100%;
+
+    margin: 0;
+    font-family: sans-serif;
+}
+.section{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 30%;
+    margin: 1rem auto 0 auto;
+}
+.section img{
+    height: 100px;
+    width: 100px;
+    padding-left:auto;
+}
+.section p{
+    color: white;
+}
+.para{
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.para:hover{
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.section p a{
+    color: rgba(255, 255, 255, 0.596);
+    text-decoration: none;
+}
+.section p a:hover{
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

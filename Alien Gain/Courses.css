@@ -1,0 +1,46 @@
+body{
+    background-image: url(CBI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container h1{
+    cursor: pointer;
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+.container h1:hover{
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-style: oblique;
+    color: rgba(255, 255, 255, 0.596);
+    background-color: black;
+}
+
+.container a{
+    text-decoration: none;
+}
+.desc:hover{
+    color: white;
+}
